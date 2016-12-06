@@ -19,4 +19,3 @@ wget http://github.com/adobe-fonts/source-code-pro/archive/2.010R-ro/1.030R-it.z
 unzip 1.030R-it.zip
 sudo mkdir /usr/local/share/fonts
 sudo cp source-code-pro-2.010R-ro-1.030R-it/OTF/*.otf /usr/local/share/fonts/
-fc-cache -f -v

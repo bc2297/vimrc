@@ -1,0 +1,3 @@
+[submodule "sources_non_forked/SimpylFold"]
+	path = sources_non_forked/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git

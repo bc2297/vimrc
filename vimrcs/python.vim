@@ -1,11 +1,9 @@
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-autocmd vimenter * NERDTree
-autocmd VimEnter * wincmd p
-"setlocal foldmethod=indent
-autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
-autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
-au BufWinLeave * mkview
-au BufWinEnter * silent loadview
+" Python indent file
+" Language:	    Python
+" Maintainer:	    Eric Mc Sween <em@tomcom.de>
+" Original Author:  David Bustos <bustos@caltech.edu> 
+" Last Change:      2004 Jun 07
+
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")
     finish
@@ -196,4 +194,3 @@ function! GetPythonIndent(lnum)
     " In all other cases, line up with the start of the previous statement.
     return indent(sslnum)
 endfunction
-
