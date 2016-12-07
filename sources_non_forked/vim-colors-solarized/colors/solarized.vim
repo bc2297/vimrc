@@ -255,7 +255,7 @@ if (has("gui_running") && g:solarized_degrade == 0)
     let s:red         = "#dc322f"
     let s:magenta     = "#d33682"
     let s:violet      = "#6c71c4"
-    let s:blue        = "#268bd2"
+    let s:blue        = "#bddcf1"
     let s:cyan        = "#2aa198"
     "let s:green       = "#859900" "original
     let s:green       = "#719e07" "experimental
@@ -348,7 +348,7 @@ else
     let s:red         = "DarkRed"       " 1
     let s:magenta     = "DarkMagenta"   " 5
     let s:violet      = "LightMagenta"  " 5*
-    let s:blue        = "DarkBlue"      " 4
+    let s:blue        = "LightCyan"
     let s:cyan        = "DarkCyan"      " 6
     let s:green       = "DarkGreen"     " 2
 

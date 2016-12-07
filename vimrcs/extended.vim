@@ -34,9 +34,9 @@ set guioptions-=L
 " Colorscheme
 syntax enable
 set background=dark
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
-let g:solarized_termtrans=1
+let g:solarized_visibility = "normal"
+let g:solarized_contrast = "normal"
+let g:solarized_termtrans=0
 let g:solarized_termcolors=16
 colorscheme solarized
 
